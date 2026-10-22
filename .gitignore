@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Model artifacts — too large for git, copy from the notebook's EDGE_DIR
+backend/ml_artifacts/*
+!backend/ml_artifacts/.gitkeep
+
+# Uploaded studies
+backend/media/
+
+# Node
+node_modules/
+dist/
